@@ -38,7 +38,13 @@ Please place the models into the corresponding locations of the project accordin
 * ubuntu 18.04
 
 ### Install environment
-
+```
+conda create -n MU python=3.7
+source activate MU
+cd path/to/XXX_MU //e.g. DiMP_MU
+pip install -r requirements.txt
+```
+(Other settings can refer to the official codes of the specific baseline trackers.)
 
 
 ## Reference
@@ -85,3 +91,5 @@ Please place the models into the corresponding locations of the project accordin
   
 ## Acknowledgments
 The training code is based on the [PyTracking](https://github.com/visionml/pytracking) toolkit. Thanks for PyTracking for providing useful toolkit for SOT.
+
+Thanks the preliminary works [LTMU](https://github.com/Daikenan/LTMU) and [MetricNet](https://github.com/zj5559/MetricNet).
