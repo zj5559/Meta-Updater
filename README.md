@@ -30,6 +30,17 @@ Please place the models into the corresponding locations of the project accordin
 
 [[Google Drive](https://drive.google.com/drive/folders/1HlTgpGNbZr0TUJTxJp0axScyoi9rT-He?usp=sharing)]
 
+## Installation
+
+### Requirements
+* python 3.7
+* CUDA 10.2
+* ubuntu 18.04
+
+### Install environment
+
+
+
 ## Reference
 * **This work is an extention of:**
   * **[LTMU]** "High-Performance Long-Term Tracking with Meta-Updater". CVPR 2020. (Oral && Best Paper Nomination)
