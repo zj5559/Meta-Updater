@@ -18,7 +18,7 @@ To show its generalization ability, we integrate the upgraded meta-updater (MU) 
 ## Models and Results
 * **Models:**
 
-Please put the models into the project according to the folder order in the following link.
+Please place the models into the corresponding locations of the project according to the folder order in the following link.
 
 [[Baidu Yun](https://pan.baidu.com/s/16Eqpi0AXuI8z55vy9y2iFg)] (a1ca)
 
