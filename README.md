@@ -85,6 +85,10 @@ tcopts['train_data_dir'] = '../results/Dimp/lasot/train_data' //dir of training 
 
 If you have any questions when install the environment or run the tracker, please contact me (zj982853200@mail.dlut.edu.cn).
 
+## Parameters
+1. For the "Stark_MU", we set the "p.update_interval" to 200 for long-term trackng benchmarks, and set it to 50 for short-term tracking benchmarks.
+2. The upgraded meta-updater (MU) has a hyper-parameter "p.lof_thresh", it controls the model's update in the initial 20 frames based on the local outlier factor (LOF) of the current bounding box. We find that the trackers usually perform well when p.lof_thresh=2.5. For different trackers and tracking benchmarks, 1.5~3.5 is a proper range for obtaining a better performance.
+
 
 ## Reference
 * **This work is an extention of:**
