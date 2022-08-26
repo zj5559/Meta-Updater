@@ -15,5 +15,26 @@ To show its generalization ability, we integrate the upgraded meta-updater (MU) 
 
 ![Experiments](results.png)
 
-## Installation
+## Reference
+* **This work is an extention of:**
+  * **[LTMU] High-Performance Long-Term Tracking with Meta-Updater. CVPR 2020. (Oral and Paper Award Nomination)
+  [[paper]()]
+  [[code]()]
+  * **[MetricNet] Online Filtering Training Samples for Robust Visual Tracking. ACMMM 2020.
+  [[paper]()]
+  [[code]()]
+  
+* **Baseline trackers:**
+  * **[ECO] .
+  [[paper]()]
+  [[code]()]
+  
+  * **[MDNet] .
+  [[paper]()]
+  [[code]()]
+  
+  * **[RTMDNet] .
+  [[paper]()]
+  [[code]()]
+  
 
