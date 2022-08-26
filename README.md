@@ -1,5 +1,5 @@
 # Meta-Updater
-Official implementation of "Robust Online Tracking with Meta-Updater". (IEEE TPAMI)
+Official PyTorch implementation of "Robust Online Tracking with Meta-Updater". (IEEE TPAMI)
 
 ## Introduction
 
@@ -14,6 +14,16 @@ The proposed module can be easily embedded into other online-update trackers to 
 To show its generalization ability, we integrate the upgraded meta-updater (MU) and its original version (MU*) into eight different types of short-term trackers with online updates, including correlation filter-based method (ECO), particle-based methods (MDNet and RTMDNet), representative discriminative methods (ATOM, DiMP, and PrDiMP), Siamese-based method (Ocean), and Transformer-based method (Stark). We perform these trackers on four long-term tracking benchmarks (VOT2020LT, OxUvALT, TLP and LaSOT) and two short-term tracking benchmarks (GOT-10k, UAV123) to demonstrate the effectiveness of the proposed meta-updater.
 
 ![Experiments](results.png)
+
+## Models and Results
+* **Models:**
+Please put the models into the project according to the folder order in the following link.
+[[Baidu Yun (a1ca)](https://pan.baidu.com/s/16Eqpi0AXuI8z55vy9y2iFg)]
+[[Google Drive](https://drive.google.com/drive/folders/1YYysWZBeviJ7nBRwy4c0ZTEpnPoHGIkc?usp=sharing)]
+
+* **Results:**
+[[Baidu Yun (i1pw)](https://pan.baidu.com/s/1wGcuFnO0CIHzTwXf2kpttQ)]
+[[Google Drive](https://drive.google.com/drive/folders/1HlTgpGNbZr0TUJTxJp0axScyoi9rT-He?usp=sharing)]
 
 ## Reference
 * **This work is an extention of:**
@@ -55,6 +65,7 @@ To show its generalization ability, we integrate the upgraded meta-updater (MU) 
   
   * **[Stark]** "Learning Spatio-Temporal Transformer for Visual Tracking". ICCV 2021.
   [[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Yan_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking_ICCV_2021_paper.pdf)]
-  [[code]([https://github.com/visionml/pytracking](https://github.com/researchmm/Stark))]
+  [[code](https://github.com/researchmm/Stark)]
   
-
+## Acknowledgments
+The training code is based on the [PyTracking(https://github.com/visionml/pytracking)] toolkit. Thanks for PyTracking for providing useful toolkit for SOT.
