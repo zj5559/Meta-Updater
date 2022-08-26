@@ -73,4 +73,4 @@ Please put the models into the project according to the folder order in the foll
   [[code](https://github.com/researchmm/Stark)]
   
 ## Acknowledgments
-The training code is based on the [PyTracking(https://github.com/visionml/pytracking)] toolkit. Thanks for PyTracking for providing useful toolkit for SOT.
+The training code is based on the [PyTracking](https://github.com/visionml/pytracking) toolkit. Thanks for PyTracking for providing useful toolkit for SOT.
