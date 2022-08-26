@@ -46,6 +46,24 @@ pip install -r requirements.txt
 ```
 (Other settings can refer to the official codes of the specific baseline trackers.)
 
+## Testing
+Take "Stark_MU" as an example:
+1. Edit the path in the file "local_path.py" to your local path.
+
+2. Place the models into the corresponding locations of the project according to the folder order in the above models link.
+
+3. Test the tracker
+```
+cd Stark_MU
+python test_tracker.py
+```
+If you want to perform the original meta-updater(MU*), you need to change the @model_constructor in the file "ltr/models/tracking/tcNet.py":
+```
+model = tclstm_fusion() //for the upgraded meta-updater(MU)
+model=tclstm() //for the original meta-updater(MU*)
+```
+
+## Training
 
 ## Reference
 * **This work is an extention of:**
