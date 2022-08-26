@@ -3,7 +3,7 @@ Official implementation of "Robust Online Tracking with Meta-Updater". (IEEE TPA
 
 ## Introduction
 
-This work is extended and improved from our preliminary work published in CVPR 2020, entitled “High-Performance Long-Term Tracking with Meta-Updater” (Oral and Paper Award Nomination). We also refer to the sample-level optimization strategy from our another work, published in ACMMM 2020, entitled "Online Filtering Training Samples for Robust Visual Tracking”.
+This work is extended and improved from our preliminary work published in CVPR 2020, entitled “High-Performance Long-Term Tracking with Meta-Updater” (Oral && Best Paper Nomination). We also refer to the sample-level optimization strategy from our another work, published in ACM MM 2020, entitled "Online Filtering Training Samples for Robust Visual Tracking”.
 
 ![MU figure](framework.png)
 
@@ -17,24 +17,44 @@ To show its generalization ability, we integrate the upgraded meta-updater (MU) 
 
 ## Reference
 * **This work is an extention of:**
-  * **[LTMU] High-Performance Long-Term Tracking with Meta-Updater. CVPR 2020. (Oral and Paper Award Nomination)
-  [[paper]()]
-  [[code]()]
-  * **[MetricNet] Online Filtering Training Samples for Robust Visual Tracking. ACMMM 2020.
-  [[paper]()]
-  [[code]()]
+  * **[LTMU]** "High-Performance Long-Term Tracking with Meta-Updater". CVPR 2020. (Oral && Best Paper Nomination)
+  [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dai_High-Performance_Long-Term_Tracking_With_Meta-Updater_CVPR_2020_paper.pdf)]
+  [[code](https://github.com/Daikenan/LTMU)]
+  * **[MetricNet]** "Online Filtering Training Samples for Robust Visual Tracking". ACM MM 2020.
+  [[paper](https://static.aminer.cn/storage/pdf/acm/20/mm/10.1145/3394171.3413930.pdf)]
+  [[code](https://github.com/zj5559/MetricNet)]
   
 * **Baseline trackers:**
-  * **[ECO] .
-  [[paper]()]
-  [[code]()]
+  * **[ECO]** "ECO: Efficient Convolution Operators for Tracking". CVPR 2017.
+  [[paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Danelljan_ECO_Efficient_Convolution_CVPR_2017_paper.pdf)]
+  [[code](https://github.com/visionml/pytracking)]
   
-  * **[MDNet] .
-  [[paper]()]
-  [[code]()]
+  * **[MDNet]** "Learning Multi-Domain Convolutional Neural Networks for Visual Tracking". CVPR 2016.
+  [[paper](https://arxiv.org/abs/1510.07945)]
+  [[code](https://github.com/hyeonseobnam/py-MDNet)]
   
-  * **[RTMDNet] .
-  [[paper]()]
-  [[code]()]
+  * **[RTMDNet]** "Real-Time MDNet". ECCV 2018.
+  [[paper](https://arxiv.org/pdf/1808.08834.pdf)]
+  [[code](http://cvlab.postech.ac.kr/~chey0313/real_time_mdnet/)]
+  
+  * **[ATOM]** "ATOM: Accurate Tracking by Overlap Maximization". CVPR 2019.
+  [[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Danelljan_ATOM_Accurate_Tracking_by_Overlap_Maximization_CVPR_2019_paper.pdf)]
+  [[code](https://github.com/visionml/pytracking)]
+  
+  * **[DiMP]** "Learning Discriminative Model Prediction for Tracking". ICCV 2019.
+  [[paper](https://arxiv.org/pdf/1904.07220.pdf)]
+  [[code](https://github.com/visionml/pytracking)]
+  
+  * **[PrDiMP]** "Probabilistic Regression for Visual Tracking". CVPR 2020.
+  [[paper](https://arxiv.org/pdf/2003.12565.pdf)]
+  [[code](https://github.com/visionml/pytracking)]
+  
+  * **[Ocean]** "Ocean: Object-aware Anchor-free Tracking". ECCV 2020.
+  [[paper](https://arxiv.org/pdf/2006.10721v2.pdf)]
+  [[code](https://github.com/researchmm/TracKit)]
+  
+  * **[Stark]** "Learning Spatio-Temporal Transformer for Visual Tracking". ICCV 2021.
+  [[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Yan_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking_ICCV_2021_paper.pdf)]
+  [[code]([https://github.com/visionml/pytracking](https://github.com/researchmm/Stark))]
   
 
