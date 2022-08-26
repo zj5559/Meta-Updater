@@ -47,14 +47,13 @@ pip install -r requirements.txt
 (Other settings can refer to the official codes of the specific baseline trackers.)
 
 ## Testing
-Take "Stark_MU" as an example:
 1. Edit the path in the file "local_path.py" to your local path.
 
 2. Place the models into the corresponding locations of the project according to the folder order in the above models link.
 
 3. Test the tracker
 ```
-cd Stark_MU
+cd XXX_MU
 python test_tracker.py
 ```
 If you want to perform the original meta-updater(MU*), you need to change the @model_constructor in the file "ltr/models/tracking/tcNet.py":
@@ -63,7 +62,29 @@ model = tclstm_fusion() //for the upgraded meta-updater(MU)
 model=tclstm() //for the original meta-updater(MU*)
 ```
 
+4. Evaluate results
+```
+python evaluate_results.py
+```
+
 ## Training
+1. Run the baseline tracker and record all results(bbox, response map,...) on LaSOT dataset to the training data of meta-updater.You can modify test_tracker.py like this:
+```
+p = p_config()
+p.tracker = 'Dimp'
+p.name = p.tracker
+p.save_training_data=True
+eval_tracking('lasot', p=p, mode='all')
+```
+2. Edit the file "ltr/tcopt.py", modify tcopts['lstm_train_dir'] and tcopts['train_data_dir'] like this: 
+```
+tcopts['lstm_train_dir'] = './models/Dimp_MU' //save path of training models
+tcopts['train_data_dir'] = '../results/Dimp/lasot/train_data' //dir of training data
+```
+3. Run ltr/run_training.py to train the upgraded meta-updater.
+
+If you have any questions when install the environment or run the tracker, please contact me (zj982853200@mail.dlut.edu.cn).
+
 
 ## Reference
 * **This work is an extention of:**
