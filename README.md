@@ -131,4 +131,4 @@ If you have any questions when install the environment or run the tracker, pleas
 ## Acknowledgments
 The training code is based on the [PyTracking](https://github.com/visionml/pytracking) toolkit. Thanks for PyTracking for providing useful toolkit for SOT.
 
-Thanks the preliminary works [LTMU](https://github.com/Daikenan/LTMU) and [MetricNet](https://github.com/zj5559/MetricNet).
+Thanks for the preliminary works [LTMU](https://github.com/Daikenan/LTMU) and [MetricNet](https://github.com/zj5559/MetricNet).
